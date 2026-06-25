@@ -290,14 +290,8 @@ small {
     align-items: stretch;
 }
 
-body > div {
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
 body > div > h2 {
+    width: 100%;
     display: flex;
     text-align: center;
 }
