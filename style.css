@@ -290,6 +290,18 @@ small {
     align-items: stretch;
 }
 
+body > div {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+body > div > h2 {
+    display: flex;
+    text-align: center;
+}
+
 .imgs-gallery > div > a {
     border: 2px solid white;
     transition:
@@ -303,7 +315,7 @@ small {
 
 .imgs-gallery > div > a > div {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     justify-content: center;
     align-items: center;
     width: 100%;
