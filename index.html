@@ -1,143 +1,172 @@
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
-<html>
-  <head>
-		<meta charset="utf-8">
-    <title>Portfolio - BOTTOU Jean-Baptiste</title>
-    <link rel="stylesheet" href="https://jiib1.github.io/portfolio/style.css">
-    <base href="https://jiib1.github.io/portfolio/">
-  </head>
+<html lang="fr">
+    <head>
+        <meta charset="utf-8" />
+        <title>Portfolio - BOTTOU Jean-Baptiste</title>
+        <link
+            rel="stylesheet"
+            href="https://jiib1.github.io/portfolio/style.css"
+        />
+        <base href="https://jiib1.github.io/portfolio/" />
+    </head>
 
-  <body>
-    <header id="main-header">
-      <h1>BOTTOU Jean-Baptiste</h1>
-      <nav>
-        <a href="#apropos">A propos de moi</a>
-        <a href="#competences">Compétences</a>
-        <a href="#realisation">Réalisation technique</a>
-        <a href="#projetpers">Projet personnel</a>
-      </nav>  
-    </header>
-
-    <div id="thebar"></div>
-    <button id="thecircle" onclick="window.scrollTo(0, 0)"><img id="up-arrow" src="images/up-arrow.png"></button>
-
-    <div id="main-div">
-
-      <section id="apropos">
-        <header>
-          <h2>A propos de moi</h2>
+    <body>
+        <header id="main-header">
+            <h1>BOTTOU Jean-Baptiste</h1>
+            <nav>
+                <a href="#apropos">A propos de moi</a>
+                <a href="#competences">Compétences</a>
+                <a href="#experiences">Expériences</a>
+                <a href="#realisation">Réalisation technique</a>
+            </nav>
         </header>
-        <main>
 
-          <img id="avatar" src="images/avatar.png" alt="[avatar]">
-          <p>Âgé de 20 ans, et doté d’une personnalité plutôt calme et curieuse, je suis actuellement en 3ème année de BUT informatique.
-            La programmation fait en effet partie de mes passions depuis le début du lycée, période durant laquelle je me suis petit à petit
-            essayé au Python en réalisant divers jeux, d'abord avec une calculatrice, puis, vite limité par les capacités de celle-ci, sur ordinateur. <br />
-            Mes autres passions sont la lecture de romans, les jeux de sociétés et vidéos, mais également les films, que leur genre soit fantastique ou science-fiction.
-            Ces activités développent mes qualités et notamment ma créativité, qui me permet d’aborder avec imaginations et inventivités les difficultés du quotidien et dans mon travail.</p>
-          <a id="cvlink" target="_blank" href="other/Bottou_Jean-Baptiste_CV.pdf" download>(Télécharger mon cv)</a>
-        </main>
-      </section>
+        <div id="thebar"></div>
+        <button type="button" id="thecircle" onclick="window.scrollTo(0, 0)">
+            <img id="up-arrow" src="images/up-arrow.png" alt="[UP]" />
+        </button>
 
-      <section id="competences">
-        <header>
-          <h2>Compétences</h2>
-        </header>
-        <main>
-          <div>
-            <div>
-              <h2>Technique(s)</h2>
-              <p>
-                Principalement apprises en autodidacte: <br /><br />
-                - Python <br /><br />
-                Apprises avec les études: <br /><br />
-                - C / C++ / C# <br />
-                - PostgreSQL <br />
-                - HTML / CSS / PHP <br />
-                - Java(FX) <br />
-                - .NET MAUI
-                - Shell BASH <br />
-              </p>
-              <h2>Personnelle(s)</h2>
-              <p>
-                - Esprit d’équipe <br />
-                - Créativité <br />
-                - Adaptabilité
-              </p>
-            </div>
-            <!-- TODO : add a hover effect showing an example of project -->
-            <div id="competences-imgs">
-              <img src="images/python-logo.png" alt="[python]">
-              <img src="images/c-logo.png" alt="[c]">
-              <img src="images/postgresql-inc-logo.png" alt="[postgree]">
-              <img src="images/javafx-logo.png" alt="[javafx]">
-              <img src="images/net-maui-logo.png" alt="[maui]">
-              <img src="images/html5-logo-5.png" alt="[html]">
-            </div>
-          </div>
-        </main>
-      </section>
+        <div id="main-div">
+            <section id="apropos">
+                <header>
+                    <h2>A propos de moi</h2>
+                </header>
+                <main>
+                    <img id="avatar" src="images/avatar.png" alt="[avatar]" />
+                    <p>
+                        Âgé de 21 ans, et doté d’une personnalité plutôt calme
+                        et curieuse, je suis actuellement en 3ème année de BUT
+                        informatique. La programmation fait en effet partie de
+                        mes passions depuis le début du lycée, période durant
+                        laquelle je me suis petit à petit essayé au Python en
+                        réalisant divers jeux, d'abord avec une calculatrice,
+                        puis, vite limité par les capacités de celle-ci, sur
+                        ordinateur. <br />
+                        Mes autres passions sont la lecture de romans, les jeux
+                        de sociétés et vidéos, mais également les films, que
+                        leur genre soit fantastique ou science-fiction. Ces
+                        activités développent mes qualités et notamment ma
+                        créativité, qui me permet d’aborder avec imaginations et
+                        inventivités les difficultés du quotidien et dans mon
+                        travail.
+                    </p>
+                    <a
+                        id="cvlink"
+                        target="_blank"
+                        href="other/Bottou_Jean-Baptiste_CV.pdf"
+                        download
+                        >(Télécharger mon cv)</a
+                    >
+                </main>
+            </section>
 
-      <section id="realisation">
-        <header>
-          <h2>Réalisation technique</h2>
-          <small>Ici sont recensés les principaux projets menés dans le cadre de mes études</small>
-        </header>
-        <main id="realisation-technique">
-          <div>
-            <a href="projects/hiroba.html"> <div> <img src="images/hiroba.png" alt="[hiroba]"> </div> </a>
-            <a href="projects/njord.html"> <div> <img src="images/njord.png" alt="[njord]"> </div> </a>
-          </div>
-        </main>
-      </section>
+            <section id="competences">
+                <header>
+                    <h2>Compétences</h2>
+                </header>
+                <main>
+                    <div>
+                        <div>
+                            <p>
+                                - Python <small>(appris en autodidacte)</small
+                                ><br />
+                                - Rust
+                                <small
+                                    >(appris lors de
+                                    <a href="#experiences">l'alternance</a
+                                    >) </small
+                                ><br />
+                                - C / C++ / C# <br />
+                                - React / Next.js <br />
+                                - PostgreSQL <br />
+                                - HTML / CSS / PHP <br />
+                                - .NET MAUI <br />
+                                <br />
+                                - Esprit d’équipe <br />
+                                - Créativité <br />
+                                - Adaptabilité
+                            </p>
+                        </div>
 
-      <section id="projetpers">
-        <header>
-          <h2>Projet personnel</h2>
-        </header>
-        <main>
-          <div>
-            <img src="images/remember1.png">
-            <div>
-              <h2>Pourquoi ?</h2>
-              <p>
-                Pour me mettre à l‘épreuve et avoir une idée de mon niveau.
-              </p>
-              <h2>Quel projet ?</h2>
-              <p>
-                Réaliser un jeu pour ordinateur, avec un système de 3D minimaliste inspirée du premier DOOM.
-              </p>
-            </div>
-          </div>
-          <div>
-            <img src="images/remember2.png"  alt="[game]"/>
-            <div>
-              <h2>Quand et comment ?</h2>
-              <p>
-                Seul, durant mon année de terminale. <br />
-                Je notais mes idées en journée et les appliquaient le soir.
-              </p>
-              <h2>Quel m'a t'il apporté ?</h2>
-              <p>
-                J'aurais appris à manier différents logiciels (ex : GIMP), compris comment fonctionne la 3D, et appris à organiser mon travail.
-              </p>
-              <h2>Et maintenant ?</h2>
-              <p>
-                Le projet et en pause, je compte le recommencer pour mieux le concevoir après mes études.
-              </p>
-            </div>
-          </div>
-        </main>
-      </section>
+                        <div id="competences-imgs">
+                            <img src="images/python-logo.png" alt="[python]" />
+                            <img src="images/rust.png" alt="[rust]" />
+                            <img src="images/c-logo.png" alt="[c]" />
+                            <img
+                                src="images/postgresql-inc-logo.png"
+                                alt="[postgree]"
+                            />
+                            <img src="images/net-maui-logo.png" alt="[maui]" />
+                            <img src="images/html5-logo-5.png" alt="[html]" />
+                        </div>
+                    </div>
+                </main>
+            </section>
 
+            <section id="experiences">
+                <header>
+                    <h2>Expériences</h2>
+                    <small> La liste de mes epxériences professionelles </small>
+                </header>
+                <main class="imgs-gallery">
+                    <div>
+                        <a href="experiences/gjini.html">
+                            <div>
+                                <img
+                                    src="images/jamin_home.png"
+                                    alt="[jamin]"
+                                />
+                            </div>
+                        </a>
+                    </div>
+                </main>
+            </section>
 
-    </div>
+            <section id="realisation">
+                <header>
+                    <h2>Réalisation technique</h2>
+                    <small
+                        >Ici sont recensés les principaux projets menés dans le
+                        cadre de mes études</small
+                    >
+                </header>
+                <main class="imgs-gallery">
+                    <div>
+                        <a href="projects/hiroba.html">
+                            <div>
+                                <img src="images/hiroba.png" alt="[hiroba]" />
+                                Hiroba
+                            </div>
+                        </a>
+                        <a href="projects/njord.html">
+                            <div>
+                                <img src="images/njord.png" alt="[njord]" />
+                            </div>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="projects/old-project.html">
+                            <div>
+                                <img
+                                    src="images/remember1.png"
+                                    alt="[old-project]"
+                                />
+                            </div>
+                        </a>
+                        <a href="projects/njord.html">
+                            <div>
+                                <img src="images/njord.png" alt="[njord]" />
+                            </div>
+                        </a>
+                    </div>
+                </main>
+            </section>
+        </div>
 
-    <footer id="main-footer">
-      <p>Contact me : jean-baptiste.bottou@orange.fr</p>
-    </footer>
+        <footer id="main-footer">
+            <p>Contact me : jean-baptiste.bottou@orange.fr</p>
+        </footer>
+    </body>
 
-  </body>
-  
-  <script src="script.js"> </script>
+    <script src="script.js"></script>
 </html>

@@ -1,384 +1,345 @@
-
 * {
-  scroll-behavior: smooth;
+    scroll-behavior: smooth;
 }
 
-@font-face
-{
-  font-family: ChakraPetch;
-  src: url('https://codefirst.iut.uca.fr/containers/j-baptistebottou-portfolio_bottou_jean-baptiste/other/ChakraPetch-Regular.ttf');
-  font-weight: normal;
-  font-style: normal;
+@font-face {
+    font-family: ChakraPetch;
+    src: url("https://codefirst.iut.uca.fr/containers/j-baptistebottou-portfolio_bottou_jean-baptiste/other/ChakraPetch-Regular.ttf");
+    font-weight: normal;
+    font-style: normal;
 }
 
-a
-{
-  color: white;
-  text-decoration: none;
-  font-family: ChakraPetch;
-  border: solid seagreen 2px;
-  padding: 5px 20px;
-  border-radius: 20px/50%;
-  transition: color 300ms;
+a {
+    color: white;
+    text-decoration: none;
+    font-family: ChakraPetch;
+    border: solid seagreen 2px;
+    padding: 5px 20px;
+    border-radius: 20px/50%;
+    transition: color 300ms;
 }
 
-a:hover 
-{
-  color: seagreen;
+#competences > a {
+    padding: 0;
+    border: none;
+    color: seagreen;
 }
 
-body
-{
-  background-color: #202020;
-  margin: 0;
-  color: white;
+a:hover {
+    color: seagreen;
 }
 
-body > header
-{
-  background-color: #101010;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0% 4%;
-  border-bottom: solid 2px seagreen;
-  margin-bottom: 4%;
+body {
+    background-color: #202020;
+    margin: 0;
+    color: white;
 }
 
-header > h1
-{
-  font-family: ChakraPetch;
-  font-size: 2vw;
-  border: solid 2px seagreen;
-  padding: 0 1vw;
-  border-top: #101010;
-  border-bottom: #101010;
+body > header {
+    background-color: #101010;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0% 4%;
+    border-bottom: solid 2px seagreen;
+    margin-bottom: 4%;
 }
 
-header > nav
-{
-  flex-grow: 1;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  gap: 5%;
-  display: flex;
-  flex-wrap: wrap;
+header > h1 {
+    font-family: ChakraPetch;
+    font-size: 2vw;
+    border: solid 2px seagreen;
+    padding: 0 1vw;
+    border-top: #101010;
+    border-bottom: #101010;
 }
 
-#thebar
-{
-  position: fixed;
-  top: 5%;
-  bottom: 5%;
-  left: 2%;
-  width: 2px;
-  background-color: seagreen;
+header > nav {
+    flex-grow: 1;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 5%;
+    display: flex;
+    flex-wrap: wrap;
 }
 
-#thecircle
-{
-  position: fixed;
-  display: flex;
-  left: 1.05%;
-  top: 3.1%;
-  height: 2vw;
-  width: 2vw;
-  background-color: #101010;
-  border: solid 2px lightgray;
-  border-radius: 50%/50%;
-  transition: border-color 200ms;
-  justify-content: center;
-  align-items: center;
-  z-index: 0;
+#thebar {
+    position: fixed;
+    top: 5%;
+    bottom: 5%;
+    left: 2%;
+    width: 2px;
+    background-color: seagreen;
 }
 
-#thecircle img
-{
-  height: 75%;
-  width: auto;
-  transition: transform 200ms;
+#thecircle {
+    position: fixed;
+    display: flex;
+    left: 1.05%;
+    top: 3.1%;
+    height: 2vw;
+    width: 2vw;
+    background-color: #101010;
+    border: solid 2px lightgray;
+    border-radius: 50%/50%;
+    transition: border-color 200ms;
+    justify-content: center;
+    align-items: center;
+    z-index: 0;
 }
 
-#thecircle:hover
-{
-  border-color: seagreen;
+#thecircle img {
+    height: 75%;
+    width: auto;
+    transition: transform 200ms;
 }
 
-#thecircle:hover img
-{
-  transform: scale(1.25);
+#thecircle:hover {
+    border-color: seagreen;
 }
 
-#up-arrow
-{
-  width: 100%;
-  height: 80%;
+#thecircle:hover img {
+    transform: scale(1.25);
 }
 
-#main-div section
-{
-  width: 80%;
-  margin-left: 10%;
-  display: flex;
-  flex-direction: column ;
-  justify-content: center;
-  align-items: center;
+#up-arrow {
+    width: 100%;
+    height: 80%;
 }
 
-#main-div section header
-{
-  background-color: #181818;
-  padding: 25px 50px;
-  margin-bottom: 2%;
-  width: 100%;
-  border-top: solid 1px seagreen;
-  border-bottom: solid 1px seagreen;
-  transition: background-color 300ms;
+#main-div section {
+    width: 80%;
+    margin-left: 10%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
-#main-div section a
-{
-  border-color: lightgray;
-  transition: border-color 300ms, color 300ms;
+#main-div section header {
+    background-color: #181818;
+    padding: 25px 50px;
+    margin-bottom: 2%;
+    width: 100%;
+    border-top: solid 1px seagreen;
+    border-bottom: solid 1px seagreen;
+    transition: background-color 300ms;
 }
 
-header h2
-{
-  font-family: ChakraPetch;
-  font-size: large;
-  border: solid 2px seagreen;
-  padding: 0 15px;
-  border-top: #101010;
-  border-bottom: #101010;
+#main-div section a {
+    border-color: lightgray;
+    transition:
+        border-color 300ms,
+        color 300ms;
 }
 
-section main
-{
-  width: 100%;
-  border-left: solid 2px lightgray;
-  border-right: solid 2px lightgray;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  gap: 50px;
-  margin-bottom: 4%;
-  transition: border-color 300ms;
+header h2 {
+    font-family: ChakraPetch;
+    font-size: large;
+    border: solid 2px seagreen;
+    padding: 0 15px;
+    border-top: #101010;
+    border-bottom: #101010;
 }
 
-#main-div section:hover header
-{
-  background-color: #101010;
+section main {
+    width: 100%;
+    border-left: solid 2px lightgray;
+    border-right: solid 2px lightgray;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    margin-bottom: 4%;
+    transition: border-color 300ms;
 }
 
-#main-div section:hover main
-{
-  border-color: seagreen;
+#main-div section:hover header {
+    background-color: #101010;
 }
 
-#main-div > section:hover > main img
-{
-  filter: grayscale(0);
+#main-div section:hover main {
+    border-color: seagreen;
 }
 
-#main-div > section:hover a
-{
-  border-color: seagreen;
+#main-div > section:hover > main img {
+    filter: grayscale(0);
 }
 
-#main-div > section:hover > main > div h2
-{
-  color: seagreen;
+#main-div > section:hover a {
+    border-color: seagreen;
 }
 
-section > main img
-{
-  filter: grayscale(0.8);
-  transition: all 300ms ease;
+#main-div > section:hover > main > div h2 {
+    color: seagreen;
 }
 
-section > main > div
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
-  padding: 0 10%;
-  width: 80%;
+section > main img {
+    filter: grayscale(0.8);
+    transition: all 300ms ease;
 }
 
-section > main > div > img
-{
-  width: 100%;
+section > main > div {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 10%;
+    width: 80%;
 }
 
-p
-{
-  width: 80%;
-  text-align: justify;
-  font-family: ChakraPetch;
-  font-size: 1.5em;
+section > main > div > img {
+    width: 100%;
 }
 
-div > div
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
+p {
+    width: 80%;
+    text-align: justify;
+    font-family: ChakraPetch;
+    font-size: 1.5em;
 }
 
-#avatar
-{
-  width: 20%;
+div > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-#competences-imgs
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
-  gap: 1em
+#avatar {
+    width: 20%;
 }
 
-#competences-imgs img
-{
-  height: 5vw;
+#competences-imgs {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    gap: 1em;
 }
 
-main > div h2
-{
-  font-family: ChakraPetch;
-  font-size: 2em;
-  color: lightgray;
-  transition: color 300ms;
+#competences-imgs img {
+    height: 5vw;
 }
 
-figcaption
-{
-  width: 100%;
-  text-align: center;
-  font-family: ChakraPetch;
-  font-size: 1.2em;
+main > div h2 {
+    font-family: ChakraPetch;
+    font-size: 2em;
+    color: lightgray;
+    transition: color 300ms;
 }
 
-figcaption img
-{
-  width: 100%;
+figcaption {
+    width: 100%;
+    text-align: center;
+    font-family: ChakraPetch;
+    font-size: 1.2em;
 }
 
-footer
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  background-color: #101010;
-  border-top: solid 2px seagreen;
+figcaption img {
+    width: 100%;
 }
 
-footer p
-{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  font-size: medium;
-  color: darkgray;
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    background-color: #101010;
+    border-top: solid 2px seagreen;
+}
+
+footer p {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: medium;
+    color: darkgray;
 }
 
 small {
-  width: 100%;
-  text-align: center;
+    width: 100%;
+    text-align: center;
 }
 
-#realisation-technique
-{
-  display: flex;
-  flex-direction: column;
-  justify-content: space-evenly;
-  align-items: center;
+.imgs-gallery {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
 }
 
-#main-div > section:hover > main > div a
-{
-  border-color: seagreen;
+#main-div > section:hover > main > div a {
+    border-color: seagreen;
 }
 
-#realisation-technique > div > a > div img
-{
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  border-radius: 1rem / 1rem;
-  transition: opacity 300ms ease;
+.imgs-gallery > div > a > div img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border-radius: 1rem / 1rem;
+    transition: opacity 300ms ease;
 }
 
-#realisation-technique > div
-{
-  display: flex;
-  align-items: stretch;
+.imgs-gallery > div {
+    display: flex;
+    align-items: stretch;
 }
 
-#realisation-technique > div > a
-{
-  border: 2px solid white;
-  transition: border-color 300ms, color 300ms;
-  border-radius: 1rem / 1rem;
-  background-color: #101010;
-  padding: 0;
-  margin: 10px;
+.imgs-gallery > div > a {
+    border: 2px solid white;
+    transition:
+        border-color 300ms,
+        color 300ms;
+    border-radius: 1rem / 1rem;
+    background-color: #101010;
+    padding: 0;
+    margin: 10px;
 }
 
-#realisation-technique > div > a > div
-{
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  align-items: center;
-  width: 100%;
-  height: 100%;
+.imgs-gallery > div > a > div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
 }
 
-#realisation-technique > div > a:hover img
-{
-  opacity: 0.25;
+.imgs-gallery > div > a:hover img {
+    opacity: 0.25;
 }
 
-#project_front_images_2
-{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin-bottom: 4%;
+#project_front_images_2 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 4%;
 }
 
-#project_front_images_3
-{
-  display: flex;
-  justify-content: space-evenly;
-  flex-direction: row;
-  margin-bottom: 4%;
+#project_front_images_3 {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: row;
+    margin-bottom: 4%;
 }
 
-#project_front_images_2 img
-{
-  width: 35%;
+#project_front_images_2 img {
+    width: 35%;
 }
 
-#project_front_images_3 .pc_screenshot
-{
-  width: 25%;
+#project_front_images_3 .pc_screenshot {
+    width: 25%;
 }
 
-#project_front_images_3 .mobile_screenshot
-{
-  width: 8% ;
+#project_front_images_3 .mobile_screenshot {
+    width: 8%;
 }
 
 .small-info {
-  color: lightgray;
+    color: lightgray;
 }
