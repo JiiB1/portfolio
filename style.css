@@ -294,6 +294,8 @@ body > div > h2 {
     width: 100%;
     display: flex;
     text-align: center;
+    justify-content: center;
+    padding-bottom: 10;
 }
 
 .imgs-gallery > div > a {
